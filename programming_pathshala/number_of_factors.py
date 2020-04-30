@@ -19,7 +19,6 @@ for i in range(2, len(spf)):
                 spf[j] = i
 
 prime_factor = []
-print(spf[12246])
 res = 1
 
 #now we create a method for using this array
@@ -42,3 +41,16 @@ def prime_factor_count(num):
 list_numbers = [10, 30, 100, 450, 987]
 for i in range(len(list_numbers)):
     print("total prime factors", prime_factor_count(list_numbers[i]))
+
+
+# number of elemetns as input 
+
+n = int(input("Enter number of elements : "))
+
+arr_ex= []
+# iterating till the range 
+for i in range(0, n): 
+    val = int(input())
+    arr_ex.append(val) # adding the elem
+for i in range(len(arr_ex)):
+    print("total prime factors", prime_factor_count(arr_ex[i]))
