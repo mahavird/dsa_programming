@@ -4,7 +4,15 @@ import sys
 
 
 
-no_airport, start_airport,  dest_airport = map(int, input().split()) 
+
+# numbers_list = map(int, input().split())
+# print("numbers_list",numbers_list)
+# for num in numbers_list:
+#     print(num)
+
+no_airport, start_airport,  dest_airport = map(int, input().split())
+
+
 
 airport_string  = input()
 
